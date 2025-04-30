@@ -1,2 +1,3 @@
 # 3D-Plane
-A 3D Plane Crash Game using OpenGL
+### A 3D Plane Crash Game using OpenGL
+This OpenGL-based 3D flight game starts with a start screen, transitions into gameplay, and ends with a game over screen based on player interaction. The airplane, rendered using scaled cubes, is the main player-controlled object that flies forward in a 3D space. Obstacles in the form of rings and buildings are generated and move toward the player to simulate forward motion. The game uses camera following, lighting, and proper matrix stack management (glPushMatrix/glPopMatrix) to render dynamic scenes. The player navigates through rings and avoids buildings, and the score increases when successfully flying through rings. Game state transitions and heads-up display (HUD) elements like text and score are handled using GLUT functions.
